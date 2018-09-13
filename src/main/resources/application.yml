@@ -10,7 +10,3 @@ management:
     web:
       exposure:
         include: "*"
-mybatis:
-  mapperLocations: classpath*:/mapper/*.xml
-  configuration:
-    mapUnderscoreToCamelCase: true
