@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ureport2
+management:
+  server:
+    port: 8081
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+mybatis:
+  mapperLocations: classpath*:/mapper/*.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
